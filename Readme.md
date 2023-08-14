@@ -22,3 +22,6 @@ Some snapshots during building of this application:
 ![snapshot](./screenshot/snapshot-passwordgenerator.png)
 
 ## Deployment Link
+- please check the deployed link below:
+
+-https://sabinkthapa.github.io/password-generator/
