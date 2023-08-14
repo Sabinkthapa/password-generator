@@ -1,9 +1,10 @@
-
+// RANDOM PASSWORD GENERATOR
 
 /*  Queryselector methods 
 selects the elements with id generate from the dom and 
 store in the generatebtm variable */
 var generateBtn = document.querySelector("#generate");
+
 
 // 
 function writePassword() {
@@ -13,10 +14,11 @@ function writePassword() {
   var passwordText = document.querySelector("#password"); 
   // set the value of html element to the password
   passwordText.value = password;
+  
 }
 
 function generatePassword() {
-  // we need to prompt the series of criteria for password like length between 8-128, uppercase,lowercase, special characters
+
   // parseint convert the string value from user to integer value
   const length =parseInt(prompt("please enter the password length between 8-128"));
 
@@ -63,3 +65,6 @@ function generatePassword() {
 }
 // Add event listener to generate button and the function executed when clicked
 generateBtn.addEventListener("click", writePassword);
+
+
+
